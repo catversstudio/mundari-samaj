@@ -6,11 +6,14 @@
 
 🌐 **Live site:** https://mundarisamaj.pages.dev
 
+This repository holds the exact code of the live site (**v3, November 2026**) — the current design merged with the full language and culture content: 20 pages, including the script, dictionary, grammar and learning sections.
+
 ## What's inside
 
-- **Language** — Mundari Bani script with its full alphabet chart, grammar notes and beginner lessons
-- **Dictionary** — a searchable Mundari dictionary, with Mundari Bani script beside every Mundari word
-- **Culture & History** — festivals, identity, movement and resources
+- **Script** — Mundari Bani, the 27-letter alphabet created by Rohidas Singh Nag, with digits and tone marks
+- **Dictionary** — a searchable dictionary of 128 Mundari words, shown in Mundari Bani, Roman letters and English
+- **Learn & Grammar** — flashcards, everyday sentences, counting in twenties, pronouns, verbs and word order
+- **Culture & History** — festivals (Sarhul, Karam, Sohrai), Sarna, identity, the language movement and resources
 - **Community** — stories, voices and contributions from the community
 
 ## Editorial principle
