@@ -67,3 +67,34 @@
 .fx-stories-sec .fx-story-card p{color:#c6d3c8}
 .fx-stories-sec .fx-story-card .fx-tag{color:#d4a27f}
 .fx-stories-sec .fx-story-card:hover{box-shadow:0 14px 34px rgba(16,47,41,.35)}
+
+/* ===== v5 media additions (featured images, embeds, share, gallery photos) ===== */
+.fx-card-img{width:100%;height:150px;object-fit:cover;display:block;flex:0 0 auto}
+.fx-figure{margin:24px 0}
+.fx-figure img{width:100%;height:auto;border-radius:10px;display:block}
+.fx-figure figcaption{font-size:12.5px;color:#69766c;margin-top:8px;line-height:1.6}
+.fx-credit{color:#8a927f;font-size:11.5px}
+.fx-featured{margin-top:6px}
+.fx-embed{position:relative;aspect-ratio:16/9;background:#102F29;border-radius:10px;overflow:hidden}
+.fx-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.fx-embed-tall{aspect-ratio:4/5;max-height:640px}
+.fx-fallback{font-size:12px;margin:7px 0 0}
+.fx-fallback a,.fx-media-link a{font-weight:700;color:#173F35}
+.fx-share{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:28px 0 6px}
+.fx-share span{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#B65F43;margin-right:2px}
+.fx-share a{border:1px solid #d8d2c2;border-radius:25px;padding:7px 14px;font:600 12px "DM Sans",sans-serif;color:#173F35;text-decoration:none;background:#fffdf8}
+.fx-share a:hover{background:#173F35;color:#fff;border-color:#173F35}
+.fx-related-h{font:600 28px "Playfair Display",Georgia,serif;margin:30px 0 14px}
+.fx-gallery-tile.has-img{padding:0;display:block;background:#fffdf8;color:#252A27;border:1px solid #e6e1d5;min-height:0}
+.fx-gallery-tile.has-img img{width:100%;height:180px;object-fit:cover;display:block}
+.fx-gallery-cap{display:block;padding:12px 14px}
+.fx-gallery-cap b{display:block;font:500 17px/1.3 "Playfair Display",Georgia,serif;margin-bottom:5px}
+.fx-gallery-cap span{display:block;font-size:11.5px;color:#69766c;line-height:1.55}
+.fx-gallery-cap .fx-gallery-credit{font-size:10.5px;color:#8a927f;margin-top:5px}
+.fx-watch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.fx-watch-card{margin:0}
+.fx-watch-card figcaption{font-size:12.5px;color:#69766c;margin-top:9px;line-height:1.6}
+.fx-watch-card figcaption b{color:#252A27}
+.fx-watch-card figcaption a{font-weight:700;color:#173F35}
+@media(max-width:900px){.fx-watch-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.fx-watch-grid{grid-template-columns:1fr}}

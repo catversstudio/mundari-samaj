@@ -31,6 +31,24 @@
         "type": "p",
         "text": "Spelling, pronunciation and usage can vary by region and speaker. A responsible language resource should record who shared a word, where it is used, how it is pronounced and whether a native-speaker review has taken place."
       }
+    ],
+    "image": {
+      "src": "assets/img/mundari-bani-script-chart.jpg",
+      "caption": "A printed Mundari Bani script chart — the alphabet, phonetic symbols and numerals; the chart is signed by the script's creator, Rohidas Singh Nag.",
+      "credit": "Photo: Vineet Topno · CC BY-SA 4.0 · via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:MundariLanguageScript.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "media": [
+      {
+        "type": "youtube",
+        "id": "1G3e4PMwJ0w",
+        "caption": "Mundari Tutorial For Beginners — Leonard Topno (Mundariversity)"
+      }
+    ],
+    "related": [
+      "oral-history",
+      "community-archive"
     ]
   },
   {
@@ -57,6 +75,10 @@
         "type": "p",
         "text": "Explain how a recording may be used, ask what should remain private, and allow the speaker to pause or withdraw permission. Do not assume every story is intended for public sharing."
       }
+    ],
+    "related": [
+      "mundari-language",
+      "community-archive"
     ]
   },
   {
@@ -83,6 +105,10 @@
         "type": "p",
         "text": "Before publishing a photograph, recording or document, confirm who owns it and whether the project has permission to display it. Credit the creator or contributor in the way they request."
       }
+    ],
+    "related": [
+      "mundari-language",
+      "oral-history"
     ]
   }
 ]
