@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Landscape and place",
+    "caption": "A visual space for community-contributed landscapes and place memories.",
+    "credit": "Illustrative artwork — not a documentary photograph",
+    "tone": "sage",
+    "status": "published"
+  },
+  {
+    "title": "Craft and making",
+    "caption": "A space for credited photographs of craft, design and everyday creativity.",
+    "credit": "Awaiting permission-cleared contribution",
+    "tone": "clay",
+    "status": "published"
+  },
+  {
+    "title": "Gatherings and festivals",
+    "caption": "A space for locally documented celebrations and gatherings.",
+    "credit": "Awaiting permission-cleared contribution",
+    "tone": "gold",
+    "status": "published"
+  },
+  {
+    "title": "Language in use",
+    "caption": "A space for learning materials, writing and language documentation.",
+    "credit": "Awaiting permission-cleared contribution",
+    "tone": "blue",
+    "status": "published"
+  }
+]

@@ -6,7 +6,7 @@
 
 🌐 **Live site:** https://mundarisamaj.pages.dev
 
-This repository holds the exact code of the live site (**v3, November 2026**) — the current design merged with the full language and culture content: 20 pages, including the script, dictionary, grammar and learning sections.
+This repository holds the exact code of the live site (**v4, November 2026**) — the current design with the full language and culture content (20 pages, including the script, dictionary, grammar and learning sections), plus Articles, News, Community Stories and Gallery sections whose content lives in simple JSON files under `content/`.
 
 ## What's inside
 
@@ -15,6 +15,7 @@ This repository holds the exact code of the live site (**v3, November 2026**) �
 - **Learn & Grammar** — flashcards, everyday sentences, counting in twenties, pronouns, verbs and word order
 - **Culture & History** — festivals (Sarhul, Karam, Sohrai), Sarna, identity, the language movement and resources
 - **Community** — stories, voices and contributions from the community
+- **Articles, News & Gallery** — long-form reading, site updates and a visual archive, updated through the JSON files in `content/`
 
 ## Editorial principle
 

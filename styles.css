@@ -10,3 +10,60 @@
 .feature-card,.festival-card{will-change:transform}
 .contribute-form .button{transition:background .2s ease,transform .2s ease}
 .contribute-form .button:hover{transform:translateY(-2px)}
+
+/* ===== Mundari Samaj v4 — homepage feature sections (Articles/News/Stories/Gallery) ===== */
+
+.fx-chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 20px}
+.fx-chip{border:1px solid #d8d2c2;background:transparent;border-radius:25px;padding:8px 14px;font:600 11px "DM Sans",sans-serif;color:#42574a;cursor:pointer;transition:background .2s ease,color .2s ease}
+.fx-chip.active,.fx-chip:hover{background:#173F35;color:#fff;border-color:#173F35}
+.fx-muted{font-size:11px;color:#778277;margin:0 0 14px}
+.fx-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.fx-content-card{border:1px solid #e6e1d5;background:#fffdf8;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
+.fx-content-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(23,63,53,.14)}
+.fx-card-art{height:150px;background:linear-gradient(135deg,#d7dfcc,#8ca18a);position:relative;overflow:hidden;flex:0 0 auto}
+.fx-card-art:after{content:'';position:absolute;inset:25% -10% -25%;background:#3e6753;clip-path:polygon(0 50%,25% 10%,50% 55%,70% 5%,100% 45%,100% 100%,0 100%)}
+.fx-card-art[data-tone="clay"]{background:linear-gradient(135deg,#e9d7c5,#c48b6b)}
+.fx-card-art[data-tone="gold"]{background:linear-gradient(135deg,#e9e1c4,#b8a66c)}
+.fx-card-art[data-tone="blue"]{background:linear-gradient(135deg,#cfdcd8,#5b8578)}
+.fx-card-body{padding:19px;display:flex;flex-direction:column;flex:1}
+.fx-tag{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#B65F43;font-weight:700}
+.fx-card-body h3{font:600 22px/1.2 "Playfair Display",Georgia,serif;margin:10px 0}
+.fx-card-body p{font-size:12.5px;color:#69766c;line-height:1.65;margin:0}
+.fx-card-foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #e6e1d5;padding-top:12px;margin-top:14px;font-size:11px;color:#778277}
+.fx-card-foot a{font-weight:700;color:#173F35}
+.fx-card-foot a:hover{color:#B65F43}
+.fx-news-list{border-top:1px solid #d8d2c2}
+.fx-news-item{display:grid;grid-template-columns:130px 1fr 25px;gap:20px;padding:20px 0;border-bottom:1px solid #d8d2c2;align-items:center}
+.fx-news-item h3{font:600 21px/1.25 "Playfair Display",Georgia,serif;margin:0 0 6px}
+.fx-news-item p{font-size:12.5px;color:#69766c;margin:0;line-height:1.65}
+.fx-news-item>a{font-size:18px;color:#B65F43;text-decoration:none}
+.fx-news-date{font-size:10px;color:#B65F43;letter-spacing:.05em;line-height:1.7}
+.fx-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fx-story-card{padding:24px;border:1px solid #e6e1d5;background:#fffdf8;transition:transform .25s ease,box-shadow .25s ease}
+.fx-story-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(23,63,53,.14)}
+.fx-story-card h3{font:500 25px/1.2 "Playfair Display",Georgia,serif;margin:10px 0}
+.fx-story-card p{font-size:12.5px;color:#69766c;margin:0;line-height:1.65}
+.fx-gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.fx-gallery-tile{min-height:170px;padding:17px;display:flex;align-items:flex-end;color:#fff;background:linear-gradient(145deg,#c2cdb8,#526f58)}
+.fx-gallery-tile:nth-child(2){background:linear-gradient(145deg,#d4b59a,#8b5741)}
+.fx-gallery-tile:nth-child(3){background:linear-gradient(145deg,#c7c6a1,#626b45)}
+.fx-gallery-tile:nth-child(4){background:linear-gradient(145deg,#b2c8c2,#3e6a61)}
+.fx-gallery-tile b{font:500 19px/1.25 "Playfair Display",Georgia,serif}
+.fx-article-layout{max-width:850px;margin:0 auto}
+.fx-article-layout>a{font-size:12px;font-weight:700;color:#173F35}
+.fx-article-layout h1{font:600 clamp(38px,5vw,58px)/1.12 "Playfair Display",Georgia,serif;margin:12px 0}
+.fx-lead{font-size:19px;color:#59685d;line-height:1.6}
+.fx-meta{font-size:11px;color:#778277}
+.fx-notice{padding:15px;background:#f4efe2;border-left:3px solid #B65F43;font-size:12px;color:#675b4a;margin:22px 0}
+.fx-body-copy{font-size:16px;line-height:1.9}
+.fx-body-copy h2{font:600 30px "Playfair Display",Georgia,serif;margin-top:35px}
+.fx-empty-state{padding:25px;border:1px dashed #d8d2c2;color:#778277}
+@media(max-width:900px){.fx-card-grid{grid-template-columns:1fr 1fr}.fx-gallery-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.fx-card-grid,.fx-story-grid{grid-template-columns:1fr}.fx-news-item{grid-template-columns:84px 1fr 20px;gap:10px}}
+
+.fx-news-band{background:#eeeadf}
+.fx-stories-sec{background:#173f35;color:#f6f0e5}
+.fx-stories-sec .fx-story-card{background:#21483b;border-color:#537064}
+.fx-stories-sec .fx-story-card p{color:#c6d3c8}
+.fx-stories-sec .fx-story-card .fx-tag{color:#d4a27f}
+.fx-stories-sec .fx-story-card:hover{box-shadow:0 14px 34px rgba(16,47,41,.35)}
